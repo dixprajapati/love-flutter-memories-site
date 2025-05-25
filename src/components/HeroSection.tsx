@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 const HeroSection = () => {
   const [currentText, setCurrentText] = useState(0);
   const texts = [
-    "Happy Birthday, Beautiful! 🎉",
+    "Happy Birthday, Tishu! 🎉",
     "You Light Up My World ✨",
     "Every Moment With You Is Magic 💫",
     "My Heart Belongs To You 💖"
