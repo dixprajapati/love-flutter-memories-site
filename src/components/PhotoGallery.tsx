@@ -4,43 +4,43 @@ import { useState } from 'react';
 const PhotoGallery = () => {
   const [selectedPhoto, setSelectedPhoto] = useState<number | null>(null);
   
-  // Sample photos - you can replace these with your actual photos
+  // Your beautiful photos together
   const photos = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=500&h=500&fit=crop&crop=center",
-      caption: "Our first adventure together 💫",
-      date: "Where it all began"
+      src: "/lovable-uploads/b7cde2f2-f622-49a8-b1fb-5bcaec116aff.png",
+      caption: "Our hands intertwined, together forever 💕",
+      date: "A promise of love and connection"
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=500&fit=crop&crop=center",
-      caption: "Cozy moments that mean everything 🏠",
-      date: "Home is wherever you are"
+      src: "/lovable-uploads/dee58479-ce74-4b3e-ae90-df282b36f2a6.png",
+      caption: "Sweet moments and beautiful smiles ✨",
+      date: "When happiness radiates from within"
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=500&h=500&fit=crop&crop=center",
-      caption: "Making memories in our special place 💕",
-      date: "Every corner holds our story"
+      src: "/lovable-uploads/b36a351f-d974-419a-89ec-86af130c0f07.png",
+      caption: "Dressed up and looking stunning together 💫",
+      date: "Every moment feels like a celebration"
     },
     {
       id: 4,
-      src: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=500&h=500&fit=crop&crop=center",
-      caption: "Laughing until our cheeks hurt 😄",
-      date: "Joy in every moment"
+      src: "/lovable-uploads/848a81e0-8298-474e-9233-8e4f3f070601.png",
+      caption: "Timeless love in black and white 🖤",
+      date: "Some moments are perfectly classic"
     },
     {
       id: 5,
-      src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=500&fit=crop&crop=center",
-      caption: "Quiet moments, loud love 💖",
-      date: "In your arms, I'm home"
+      src: "/lovable-uploads/3c8c5608-1286-459d-bb26-71b3d7ce64f7.png",
+      caption: "Adventure buddies for life 🌟",
+      date: "Making memories wherever we go"
     },
     {
       id: 6,
-      src: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=500&h=500&fit=crop&crop=center",
-      caption: "Dancing through life together 💃",
-      date: "You make every day feel like magic"
+      src: "/lovable-uploads/7a0164b1-7449-4af1-9008-a1084f265c2e.png",
+      caption: "Golden hour magic with you ☀️",
+      date: "You make every moment shine brighter"
     }
   ];
 
